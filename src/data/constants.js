@@ -228,7 +228,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/basupatil1213/chef-2-go",
-    webapp: "https://trackify.duckdns.org",
+    webapp: "",
   },
   {
     id: 1,
@@ -251,7 +251,7 @@ export const projects = [
     ],
     category: "Java",
     github: "https://github.com/basupatil1213/fitpulse",
-    webapp: "https://trackify.duckdns.org",
+    webapp: "",
   },
 
 ];
