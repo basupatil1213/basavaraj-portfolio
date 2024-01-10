@@ -170,7 +170,7 @@ export const experiences = [
     id: 2,
     img: "https://github.com/basupatil1213/basavaraj-portfolio/blob/master/src/images/koch-logo.png?raw=true",
     role: "Software Developer Intern",
-    company: "Flipr",
+    company: "Koch Business Solutions India Pvt. Ltd.",
     date: "Mar 2021 - June 2021",
     desc: "As a Salesforce Developer Intern, I successfully implemented a Salesforce Flow to efficiently handle mass owner changes across various record types, showcasing my problem-solving skills and technical proficiency. This initiative led to an annual cost savings of $20,000 for the business, highlighting my efficiency and attention to detail. I also established a weekly Asynchronous Scheduled job for data cleanup, demonstrating my project management and organizational skills, resulting in a notable 37% reduction in total storage costs. Additionally, I played a key role in creating and maintaining custom fields, objects, record types, validation rules, and profiles, all aligned with the specific needs of the business, showcasing my attention to detail, organizational skills, and adaptability.",
     skills: [
