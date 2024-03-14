@@ -25,7 +25,7 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Redux",
+        name: "React Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
@@ -42,11 +42,6 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
         name: "Material UI",
@@ -93,6 +88,31 @@ export const skills = [
     ],
   },
   {
+    title: "Cloud Technologies",
+    skills: [
+      {
+        name: "AWS",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      },
+      {
+        name: "Google Cloud",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg",
+      },
+      {
+        name: "Terraform",
+        image:
+          "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
+      },
+      {
+        name: "Packer",
+        image:
+          "https://www.vectorlogo.zone/logos/packerio/packerio-icon.svg",
+      }
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
@@ -104,6 +124,11 @@ export const skills = [
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "Shell Scripting",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
       },
       {
         name: "Netlify",
@@ -127,7 +152,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://github.com/basupatil1213/basavaraj-portfolio/blob/master/src/images/koch-logo.png?raw=true",
+    img: "../images/koch-logo.png",
     role: "Salesforce Developer",
     company: "Koch Business Solutions India Pvt. Ltd.",
     date: "Aug 2022 - Aug 2023",
@@ -147,7 +172,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://github.com/basupatil1213/basavaraj-portfolio/blob/master/src/images/koch-logo.png?raw=true",
+    img: "../images/koch-logo.png",
     role: "Associate Software Engineer",
     company: "Koch Business Solutions India Pvt. Ltd.",
     date: "Aug 2021 - Aug 2022",
@@ -253,13 +278,53 @@ export const projects = [
     github: "https://github.com/basupatil1213/fitpulse",
     webapp: "",
   },
+  {
+    id: 2,
+    title: "Mahalaxmi Traders",
+    date: "Oct 2023 - Nov 2023",
+    description:
+      "Mahalaxmi Traders - Your Premier Tile Destination - Crafted with MERN Stack",
+    image:
+      "",
+    tags: [
+      "React Js",
+      "Redux",
+      "Node Js",
+      "Express Js",
+      "MongoDb",
+      "Firebase",
+      "Material-UI",
+      "GSAP Animation",
+      "JWT Authentication",
+    ],
+    category: "web app",
+    github: "https://github.com/basupatil1213/mahalaxmitraders",
+    webapp: "",
+  },
+  {
+    id: 3,
+    title: "Cloud Native User Management System",
+    date: "Jan 2023 -Present",
+    description:
+      "esigned and automated GCP cloud infrastructure for a user management system using Terraform and Packer. Implemented CI/CD pipeline using Github and Github Actions. Implemented security measures using VPC, Firewall, and IAM.",
+    image:
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg",
+    tags: [
+      "GCP",
+      "Terraform",
+      "Packer",
+      "Github",
+      "Github Actions",
+      "VPC",
+      "Firewall",
+      "IAM",
+      "Google Compute Engine",
+      "Google Cloud Storage",
+      "Google Cloud SQL",
+    ],
+    category: "cloud",
+    github: "https://github.com/Basu-Patil/tf-gcp-infra",
+    webapp: "",
+  }
 
 ];
-
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];

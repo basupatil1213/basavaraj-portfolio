@@ -38,6 +38,13 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="Java" onClick={() => setToggle('Java')}>Java</ToggleButton>
           }
+          <Divider />
+          {/* cloud */}
+          {toggle === 'cloud' ?
+            <ToggleButton active value="cloud" onClick={() => setToggle('cloud')}>Cloud</ToggleButton>
+            :
+            <ToggleButton value="cloud" onClick={() => setToggle('cloud')}>Cloud</ToggleButton>
+          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
